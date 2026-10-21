@@ -1,0 +1,11 @@
+name: CI
+
+on:
+  push
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Smoke test
+        run: echo "Smoke run complete"
